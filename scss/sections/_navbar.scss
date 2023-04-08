@@ -1,0 +1,20 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.navbar{
+   .delivery{
+    margin-top: 0.7rem;
+     margin-right: 1rem;
+   }
+    .menu{
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+}
+.bh{
+    font-size: 2.2rem;
+}
+.bs{
+    font-size: 1.3rem;
+}

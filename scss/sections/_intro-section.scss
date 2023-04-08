@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.text{
+	margin-top: 5rem;
+	}
+p{
+	font-size: 1.3rem;
+}
+.sub-heading  {
+	border:3px dashed;
+	padding: 0.7rem 0 0.7rem  0;
+}
+.main-heading-p1,.main-heading-p2{
+	font-size:8rem;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold' , sans-serif;
+	font-weight: bolder;
+	span{
+		text-shadow: 2px 6px 2px #495057;
+	}
+}
+.main-heading-p2{
+	font-size: 6rem;
+}

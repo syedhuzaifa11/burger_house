@@ -1,0 +1,31 @@
+
+
+
+$reeed: #bf2222;
+$brown: #3d2514;
+$yellow: #ffc045;
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$buton: #df581e;
+$green: #6bb99c;
+$orange: #eaa73b;
+$cardss: #faf8ef;
+$dark-orange: #df581e;
+$form-cl: #ccc1a3;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+$footer:#fa9d30;
+// scss-docs-end gray-color-variables
+
+
+// scss-docs-start accordion-variables
+$accordion-padding-x:                     1.5rem;
+$accordion-padding-y:                     1.5rem;
+$accordion-icon-width:                    1.875rem;
+
+
+// IMPORT BOOTSTRAP 5 SCSS FILE.
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

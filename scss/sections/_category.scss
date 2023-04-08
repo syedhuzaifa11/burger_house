@@ -1,0 +1,24 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.category{
+	.cardd{
+		padding-left: 3rem;
+	}
+	.dds{
+		background-color: $cardss;
+		border-radius: 2rem;
+	}
+	h5{
+		font-size: 2rem;
+		font-family: italic;
+		font-weight: bold;
+	}
+	p{
+		font-family: italic;
+		font-weight: bold;
+	}
+	.btn{
+		background-color:$dark-orange;
+	}
+}

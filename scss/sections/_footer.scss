@@ -1,0 +1,28 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer-img{
+	width: 100%;
+	height: 400px;
+	filter: brightness(0.6);
+}
+
+.footer-logo{
+
+	top: 20%;
+	left: 7%;
+}
+.footer-info {
+	p{
+		font-family: ui-sarif;
+		font-size: 1.1rem;
+	}
+	i{
+		font-size: 1.5rem;
+	}
+	top: 50%;
+	left: 7%;
+}
+.address,.text{
+	font-size: 1.2rem;
+}
